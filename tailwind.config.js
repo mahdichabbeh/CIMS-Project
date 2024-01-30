@@ -1,7 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./login.php"],
+  content: ["./*.php"],
   theme: {
+    fontFamily: {
+      poppins : ['Poppins','sans-serif']
+    },
     extend: {},
   },
   plugins: [],
